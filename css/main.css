@@ -209,8 +209,22 @@ body{
     }
     .card-rating{
         max-width: 475px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    
+    .card-rating .cars-rating-stars div{
+        background-size: 12.5px 12.5px;
+        width: 25px;
+        height: 25px;
+    } 
+    .card-rating .card-rating-description{
+        max-width: 215px;
+    }
+    .card-rating .card-rating-description h5{
+        font-size: 1.1rem;
+        text-align: center;
+    }
     .main-ratings{
         width: 50%;
         align-items: flex-start;
